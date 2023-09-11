@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-drag: none;
+  font-family: 'Chewy', var(--background)
+}
+html,body{
+  scroll-behavior: smooth;
+}
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--text);
+  background-color: var(--background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --background: #ffffff;
+  --primary: #EF9596;
+  --secondary: #9D7B78;
+  --secondary2: #0a4140;
+  --dark: #041B1A;
+  --text: #fff;
+  --text2: #000;
+  --BBBB: #0cd0ff;
+}
+section{
+  min-height: 100vh;
+  overflow: hidden;
+}
+h1,h2,h3,a{
+  color: var(--text);
+}
+button{
+  cursor: pointer;
+}
+a{
+  cursor: pointer;
+}

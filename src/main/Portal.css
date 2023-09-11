@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+.portal{
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.portal .header-content h1{
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Chewy', cursive;
+}
+.portal h2{
+    text-align: center;
+}
+.portal .portal-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.portal .portal-btn a{
+    font-size: 1.5rem;
+    padding: .5rem 3.5rem;
+    border-radius: 1rem;
+    border: 0;
+    background-color: var(--text);
+    color: var(--text2);
+    text-align: center;
+}
+
